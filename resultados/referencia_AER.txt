@@ -1,0 +1,18 @@
+To cite AER, please use:
+
+  Kleiber C, Zeileis A (2008). _Applied Econometrics with R_.
+  Springer-Verlag, New York. doi:10.1007/978-0-387-77318-6
+  <https://doi.org/10.1007/978-0-387-77318-6>.
+  <https://CRAN.R-project.org/package=AER>.
+
+A BibTeX entry for LaTeX users is
+
+  @Book{,
+    title = {Applied Econometrics with {R}},
+    author = {Christian Kleiber and Achim Zeileis},
+    year = {2008},
+    publisher = {Springer-Verlag},
+    address = {New York},
+    doi = {10.1007/978-0-387-77318-6},
+    url = {https://CRAN.R-project.org/package=AER},
+  }

@@ -1,0 +1,22 @@
+# Arquivos locais do macOS e de sessões do R
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+Rplots.pdf
+
+# Configurações pessoais e credenciais
+.Renviron
+.Renviron.*
+.env
+.env.*
+!.env.example
+
+# Bibliotecas e arquivos temporários não fazem parte do código
+renv/library/
+renv/staging/
+*.tmp
+*~
+
+# .vscode, dados e resultados desta versão são compartilhados deliberadamente.

@@ -1,0 +1,8 @@
+{
+  "r.executablePath": "R",
+  "r.consolePath": "R",
+  "r.consoleArgs": ["--no-save", "--no-restore"],
+  "r.lsp.enabled": true,
+  "r.sessionWatcher": true,
+  "files.encoding": "utf8"
+}

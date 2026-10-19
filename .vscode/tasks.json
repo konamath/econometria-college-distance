@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CollegeDistance: executar análise descritiva",
+      "type": "process",
+      "command": "Rscript",
+      "args": ["--vanilla", "01_descritiva.R"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": [],
+      "group": {"kind": "build", "isDefault": true},
+      "presentation": {"reveal": "always", "panel": "dedicated"}
+    }
+  ]
+}

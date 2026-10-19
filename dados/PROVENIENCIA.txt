@@ -1,0 +1,5 @@
+Base: AER::CollegeDistance; AER 1.2.17
+Documentação: https://cran.r-universe.dev/AER/doc/manual.html#CollegeDistance
+Pesquisa: High School and Beyond, 1980 e acompanhamento em 1986.
+Amostra: ambas as regiões da versão AER; unidade: estudante; análise sem pesos.
+Tratamento: nenhuma exclusão, imputação ou mudança na codificação das variáveis originais.

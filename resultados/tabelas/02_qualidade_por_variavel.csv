@@ -1,0 +1,15 @@
+"variavel","tipo","n_total","n_validos","n_ausentes","n_valores_distintos"
+"gender","factor",4739,4739,0,2
+"ethnicity","factor",4739,4739,0,3
+"score","numeric",4739,4739,0,2464
+"fcollege","factor",4739,4739,0,2
+"mcollege","factor",4739,4739,0,2
+"home","factor",4739,4739,0,2
+"urban","factor",4739,4739,0,2
+"unemp","numeric",4739,4739,0,116
+"wage","numeric",4739,4739,0,41
+"distance","numeric",4739,4739,0,61
+"tuition","numeric",4739,4739,0,41
+"education","numeric",4739,4739,0,7
+"income","factor",4739,4739,0,2
+"region","factor",4739,4739,0,2
