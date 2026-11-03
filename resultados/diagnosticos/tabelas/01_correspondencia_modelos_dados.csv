@@ -1,0 +1,4 @@
+"modelo","n_observacoes","n_parametros","especificacao_igual_a_definida","ids_iguais_aos_da_base","valores_iguais_aos_da_base","coeficientes_reproduzidos_com_a_base","coeficientes_iguais_a_tabela_11","sem_coeficiente_nao_identificado"
+"Modelo 1",4739,2,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Modelo 2",4739,5,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Modelo 3",4739,11,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE

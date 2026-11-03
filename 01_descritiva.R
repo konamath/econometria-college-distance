@@ -8,7 +8,9 @@
 argumento <- grep("^--file=", commandArgs(), value = TRUE)
 arquivo_source <- tryCatch(sys.frame(1)$ofile, error = function(e) NULL)
 if (length(argumento)) {
-  pasta <- dirname(normalizePath(sub("^--file=", "", argumento[1])))
+  # O Rscript troca espaços do caminho por "~+~"; desfazemos antes de localizar.
+  caminho <- gsub("~+~", " ", sub("^--file=", "", argumento[1]), fixed = TRUE)
+  pasta <- dirname(normalizePath(caminho))
 } else if (!is.null(arquivo_source)) {
   pasta <- dirname(normalizePath(arquivo_source))
 } else {

@@ -1,13 +1,13 @@
 # Como trabalhar em grupo
 
-O repositório contém a primeira etapa do trabalho: análise descritiva da CollegeDistance. A versão principal fica na branch `main`. Cada alteração deve ter um objetivo claro e ser revisada por outro integrante antes de entrar nessa versão.
+O repositório contém o trabalho sobre a CollegeDistance: análise descritiva, regressões, diagnósticos, comparação de formas funcionais e relatório consolidado. A versão principal fica na branch `main`. Cada alteração deve ter um objetivo claro e ser revisada por outro integrante antes de entrar nessa versão.
 
 ## Começar no seu computador
 
 1. No GitHub, use **Code > Open with GitHub Desktop** e escolha onde salvar o projeto. Se preferir o VS Code, use **Git: Clone** e cole o endereço do repositório.
 2. Abra a pasta clonada no VS Code ou no RStudio.
 3. Instale o R, caso ainda não esteja disponível, e execute `00_preparar_ambiente.R` uma vez.
-4. Execute `01_descritiva.R` e confira se a análise termina sem erros. O README explica os modos de execução.
+4. Execute os scripts na ordem indicada no README e confira se terminam sem erros.
 
 Baixar o ZIP permite consultar e executar os arquivos, mas não conecta a pasta ao histórico do Git. Para colaborar, prefira clonar o repositório.
 
@@ -20,6 +20,9 @@ Baixar o ZIP permite consultar e executar os arquivos, mas não conecta a pasta 
 
 ```sh
 Rscript --vanilla 01_descritiva.R
+Rscript --vanilla 02_regressoes.R
+Rscript --vanilla 03_diagnosticos.R
+Rscript --vanilla 04_formas_funcionais.R
 ```
 
 5. Confira as alterações no GitHub Desktop ou na seção **Source Control** do VS Code. Inclua os arquivos necessários e faça um commit com uma descrição objetiva.

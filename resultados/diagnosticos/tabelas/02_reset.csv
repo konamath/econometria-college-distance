@@ -1,0 +1,7 @@
+"modelo","regressores_adicionados","versao","estatistica_f","gl1","gl2","valor_p"
+"Modelo 1","ŷ², ŷ³","Clássica (F, lmtest::resettest)",10.6561704977581,2,4735,2.41250367707404e-05
+"Modelo 1","ŷ², ŷ³","Robusta (Wald F com HC3)",13.38970769925,2,4735,1.58966662811517e-06
+"Modelo 2","ŷ², ŷ³","Clássica (F, lmtest::resettest)",0.609739412966962,2,4732,0.543535172987757
+"Modelo 2","ŷ², ŷ³","Robusta (Wald F com HC3)",0.592554947813972,2,4732,0.552953836785334
+"Modelo 3","ŷ², ŷ³","Clássica (F, lmtest::resettest)",6.42027372969949,2,4726,0.00164244786334739
+"Modelo 3","ŷ², ŷ³","Robusta (Wald F com HC3)",8.84772846835145,2,4726,0.000146102003930256
