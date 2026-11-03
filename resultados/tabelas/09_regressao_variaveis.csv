@@ -1,0 +1,11 @@
+"variavel","entrada","significado","unidade_ou_categorias","tipo","n_total","n_ausentes","n_nao_finitos","minimo","maximo","categorias_e_n","categoria_referencia"
+"education","Dependente","Anos de escolaridade","Anos","numeric",4739,0,0,12,18,,
+"distance","Modelos 1, 2 e 3","Distância até faculdade de quatro anos","Dezenas de milhas","numeric",4739,0,0,0,20,,
+"income","Modelos 2 e 3","Faixa de renda familiar anual","low: até US$ 25.000; high: acima de US$ 25.000","factor",4739,0,,,,"low=3374; high=1365","low"
+"fcollege","Modelos 2 e 3","Pai graduado","no; yes","factor",4739,0,,,,"no=3753; yes=986","no"
+"mcollege","Modelos 2 e 3","Mãe graduada","no; yes","factor",4739,0,,,,"no=4088; yes=651","no"
+"score","Modelo 3","Nota em testes no ano inicial","Pontos","numeric",4739,0,0,28.9500007629395,72.8099975585938,,
+"gender","Modelo 3","Sexo registrado","male; female","factor",4739,0,,,,"male=2139; female=2600","male"
+"ethnicity","Modelo 3","Grupo étnico registrado","other; afam; hispanic","factor",4739,0,,,,"other=3050; afam=786; hispanic=903","other"
+"urban","Modelo 3","Escola em área urbana","no; yes","factor",4739,0,,,,"no=3635; yes=1104","no"
+"region","Modelo 3","Região","other; west","factor",4739,0,,,,"other=3796; west=943","other"

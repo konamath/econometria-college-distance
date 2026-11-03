@@ -1,0 +1,10 @@
+"grupo_comparavel","modelo","descricao","n_observacoes","n_parametros","r2","r2_ajustado","r2_menos_primeiro_do_grupo","r2_ajustado_menos_primeiro_do_grupo"
+"Amostra completa, education","A","Modelo 3 original",4739,11,0.269236881680701,0.267691274408453,0,0
+"Amostra completa, education","B","A + score²",4739,12,0.26939237472193,0.267692208892004,0.000155493041228749,9.344835518732e-07
+"Amostra completa, education","C","A + distance²",4739,12,0.270034240635979,0.268335568464834,0.000797358955277716,0.000644294056381112
+"Amostra completa, education","D","A + score² + distance²",4739,13,0.27021349542856,0.268360461561684,0.000976613747859179,0.00066918715323161
+"Amostra completa, log(education)","E","log(education), explicativas de A",4739,11,0.270712404247373,0.269169917792736,0,0
+"Distância positiva, education","P1","education ~ distance",4645,11,0.266412161658908,0.26482910633232,0,0
+"Distância positiva, education","P2","education ~ log(distance)",4645,11,0.266643428113111,0.265060871850947,0.000231266454202905,0.000231765518627136
+"Distância positiva, log(education)","P3","log(education) ~ distance",4645,11,0.267878419478998,0.266298528282362,0,0
+"Distância positiva, log(education)","P4","log(education) ~ log(distance)",4645,11,0.268144158069206,0.266564840326585,0.000265738590207953,0.000266312044222339

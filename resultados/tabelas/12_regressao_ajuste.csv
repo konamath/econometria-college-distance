@@ -1,0 +1,4 @@
+"modelo","especificacao","n_observacoes","n_parametros","gl_residuos","r2","r2_ajustado"
+"Modelo 1","education ~ distance",4739,2,4737,0.00868308828680714,0.00847381724781338
+"Modelo 2","education ~ distance + income + fcollege + mcollege",4739,5,4734,0.109999254111021,0.10924724672117
+"Modelo 3","education ~ distance + income + fcollege + mcollege + score + gender + ethnicity + urban + region",4739,11,4728,0.269236881680701,0.267691274408453

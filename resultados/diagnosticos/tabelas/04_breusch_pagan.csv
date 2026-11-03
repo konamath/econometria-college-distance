@@ -1,0 +1,4 @@
+"modelo","versao","regressores_da_variancia","estatistica_lm","gl","valor_p"
+"Modelo 1","Studentizada (Koenker), lmtest::bptest(studentize = TRUE)","Regressores do próprio modelo",5.13241408660059,1,0.0234830443998297
+"Modelo 2","Studentizada (Koenker), lmtest::bptest(studentize = TRUE)","Regressores do próprio modelo",5.04324300782165,4,0.282889203278079
+"Modelo 3","Studentizada (Koenker), lmtest::bptest(studentize = TRUE)","Regressores do próprio modelo",128.660231192138,10,8.76296348422091e-23
